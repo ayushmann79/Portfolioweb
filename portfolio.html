@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        background-color: rgb(0,0,33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+        }
+
+        .left :hover{
+            color: rgb(153,153,226);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+            color:rgb(153,153,226);
+            font-size: 1.04rem;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection >div{
+        
+            width: 30%;
+        }
+        .leftSection{
+            margin: 70px 0;
+            font-size: 3rem;
+            
+        }
+        .rightSection{
+            width: 50%;
+            margin:70px ;
+            background-color: rgb(0,0,33);
+            
+        }
+
+        .rightSection img{
+            width: 80%;
+            margin: 3px;
+        }
+        
+        .purple{
+            color: blueviolet;
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        #element{
+            color: blueviolet;
+        }
+
+        .secondSection{
+            height: 80vh;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .Box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0  100px;
+        }
+
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+    
+            
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+            
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 75px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: #0e0e1a;
+             
+        }
+
+        .footer{
+            padding: 23px 122px;
+            justify-content:space-around;
+
+        }
+        .footer >div{
+            width: 223px;
+        }
+
+        footer .footer-rights{
+            text-align:center;
+            color: grey;
+            padding: 12px 0;
+
+        }
+
+        .footer-second :hover{
+            text-decoration: none;
+            color:rgb(153,153,226);
+            font-size: 1.04rem;
+        }
+        
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ayushman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li style="list-style: none;"><a href="/">Home</a></li>
+                    <li style="list-style: none;"><a href="/"> About</a></li>
+                    <li style="list-style: none;"><a href="/">Services</a></li>
+                    <li style="list-style: none;"><a href="/">Projects</a></li>
+                    <li style="list-style: none;"><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi , My name is <span class="purple">Ayushman</span>
+                <div>and I am a passionate </div>
+                <div></div>
+                <span id="element"></span>
+            </div>
+            
+            <div class="rightSection">
+                <img src="web.png" style="border-radius: 1.5rem;">
+            </div>
+        </section>
+         
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+    
+
+            <div class="Box">
+                <div class="vertical">
+                    <img  class="image-top"  src="html.jpg">
+                    <div class="vertical-title" style="display: inline;">
+                   <i>HTML Developer (2023-♾️)</i> 
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                 
+                <div class="vertical">
+                    <img  class="image-top"  src="js.jpg">
+                    <div class="vertical-title" style="display: inline;">
+                   <i>js Developer (2023-♾️)</i> 
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                 
+                <div class="vertical">
+                    <img  class="image-top"  src="node.jpg">
+                    <div class="vertical-title" style="display: inline;">
+                   <i>Nodejs Developer 
+                   <span> (2023-♾️)</span></i> 
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                 
+                <div class="vertical">
+                    <img  class="image-top"  src="python.jpg" style="width: 45px;">
+                    <div class="vertical-title" style="display: inline;" >
+                   <i>Python Developer (2019-♾️)</i> 
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  class="image-top"  src="sql.jpg" style="width: 45px;">
+                    <div class="vertical-title" style="display: inline;">
+                   <i> SQL Developer (2019-♾️)</i> 
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                 
+                <div class="vertical">
+                    <img  class="image-top"  src="cpp.jpg">
+                    <div class="vertical-title" style="display: inline;">
+                        <div><i>C++ (2023-♾️)</i></div>
+                    </div>
+                    <div class="vertical-desc">
+
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti dignissimos magnam,
+                        distinctio mollitia corporis! Quod possimus nisi molestiae quo! Illum sed ad voluptatem
+                         animi suscipit maxime consectetur cumque error. 
+                    </div>
+                </div>
+                 
+
+                 
+ 
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Follow me on</h3>
+                <br>
+           
+            <div class="footer-second">
+                <ul>
+               <li style="list-style: none;"><img src="linkedin.jpg" alt="" style="width: 20px; margin-right: 10px; margin-top: 5px;"><a href="https://www.linkedin.com/in/ayushman-raj-0a9357238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="text-decoration: none;">linkedin</a></li>
+                <li style="list-style:none"><img src="git.jpg" alt="" style="width: 20px; margin-right: 10px; margin-top: 5px; border-radius: 50%;"><a href="https://github.com/ayushmannn79" style="text-decoration: none;">github</a></li>  
+                <li style="list-style:none"><img src="insta.jpg" alt="" style="width: 20px; margin-right: 10px; margin-top: 5px; border-radius: 50%;"><a href="https://www.instagram.com/i_am_ayushmann_79?igsh=OGQ5ZDc2ODk2ZA==" style="text-decoration: none;">instagram</a></li>
+                <li style="list-style:none"><img src="twitter.jpg" alt="" style="width: 20px; margin-right: 10px; margin-top: 5px; border-radius: 50%;"><a href="https://x.com/AyushMa75564091?t=3CXlG2_tOVIuiOhSQJRTqg&s=09" style="text-decoration: none;">twitter</a></li>
+                </ul>
+            </div>
+            
+             
+        </div>
+        
+        </div>
+        <div class=" footer-rights">
+           Copyright  &copy; www.ayushmanprofile.com | All rights reserved
+         </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' Web Developer',' graphics designer', 'and Python Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
